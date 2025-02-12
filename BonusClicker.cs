@@ -6,7 +6,7 @@ public class BonusClicker : MonoBehaviour
 {
     public Clicker clicker;
     private Vector2 targetPosition;
-    private float moveStep = 1f;
+    private float moveStep = 3f;
     void Start()
     {
         targetPosition = GetRandomPoint();
